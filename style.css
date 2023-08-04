@@ -1,0 +1,43 @@
+/* RESET CSS */
+/* /* *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0; */
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* FIM RESET */
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+
+/* FIM CONTAINER */
+
+body {
+    background-color: #99e0a7;
+}
+
+.caixa {
+    background-color: white;
+    margin: 250px 360px;
+}
+
+.industria {
+    font: 300 20px 'Poopins Bold', sans-serif;
+
+}
