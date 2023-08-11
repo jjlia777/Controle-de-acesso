@@ -22,7 +22,7 @@ body {
 
 .logo {
     width: 350px;
-    margin-left: 420px;
+    margin-left: 480px;
 }
 
 .titulo {
@@ -43,7 +43,7 @@ body {
 }
 
 input {
-    margin-left: 490px;
+    margin-left: 550px;
     width: 220px;
     height: 30px;
     border-radius: 10px;
@@ -56,13 +56,13 @@ button {
     padding: 5px 15px;
     border-radius: 40px;
     display: flex;
-    margin-left: 550px;
+    margin-left: 610px;
     margin-top: 20px;
 }
 
 .atencao {
     width: 250px;
-    margin-left: 480px;
+    margin-left: 540px;
     margin-top: 20px;
 }
 
