@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <section id="section">
+<body id="body">
+    <header id="header">
         <div class="container">
-            <div class="caixa">
-                <h1 class="industria">Controle de Acesso</h1>
-            </div>
+                <img src="img/nasa2.png" alt="" class="logo">
+                <h1 class="titulo">Controle de Acesso a áreas restritas.</h1>
+                <p class="texto">Para a garantia da segurança e privacidade de dados da empresa!</p>
+                <div class="acesso">
+                    <h2>Insira seu número de identificação:</h2>
+                    <input type="number" placeholder="digite o numero de identificação" id="numero" name="numero">
+                    <button id="sortear" onclick="acessar()">
+                        VERIFIQUE
+                    </button>
+
+                </div>
+
+                <img src="img/atenção.png" alt="" class="atencao">
         </div>
-    </section>
-    
-
-
-
-
-
-
-
-
+    </header>
+<script src="script.js"></script>
 </body>
 </html>
